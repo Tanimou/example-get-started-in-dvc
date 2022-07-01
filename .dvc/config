@@ -1,5 +1,7 @@
 [core]
     autostage = true
-    remote = storage
+    remote = myremote
 ['remote "storage"']
     url = s3://mybucket/dvcstore
+['remote "myremote"']
+    url = C:\Users\tanim\AppData\Local\Temp\dvcstore
